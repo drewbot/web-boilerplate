@@ -1,5 +1,5 @@
 {
-  "name": "socialtopias",
+  "name": "web-boilerplate",
   "private": true,
   "dependencies": {
     "jquery": "~2.1.1",
