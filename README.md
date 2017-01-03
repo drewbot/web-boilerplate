@@ -4,7 +4,7 @@ The web app boilerplate is built using Zurb Foundation, jQuery and ES6 syntax. S
 
 ## Installation
 ```
-git clone https://github.com/drewbot/web-boilerplate/settings
+git clone https://github.com/drewbot/web-boilerplate
 npm install
 bower install
 ```
