@@ -1,6 +1,6 @@
 #Web Application Boilerplate
 ## Overview
-The app is boilerplate is built using Zurb Foundation, jQuery and ES6 syntax. Styles are described in Sass. Build scripts are written with Gulp.js.
+The web app boilerplate is built using Zurb Foundation, jQuery and ES6 syntax. Styles are described in Sass. Build scripts are written with Gulp.js.
 
 ## Installation
 ```
