@@ -7,10 +7,14 @@ $grid-columns: 12;
 $content-well-max-width: 120rem;
 
 // breakpoints
-$breakpoint-small: "only screen and (min-width: 641px)";
-$breakpoint-medium: "only screen and (min-width: 1025px)";
-$breakpoint-large: "only screen and (min-width: 1441px)";
-$breakpoint-xlarge: "only screen and (min-width: 1921px)";
+$breakpoint-xs-only: "only screen and (max-width: 641px)"; // xs-only
+$breakpoint-s: "only screen and (min-width: 641px)";
+$breakpoint-s-only: "only screen and (min-width: 641px) and (max-width: 1024px)"; // s-only
+$breakpoint-m: "only screen and (min-width: 1025px)";
+$breakpoint-m-only: "only screen and (min-width: 1025px) and (max-width: 1440px)"; // m-only
+$breakpoint-l: "only screen and (min-width: 1441px)";
+$breakpoint-l-only: "only screen and (min-width: 1441px) and (max-width: 1920px)"; // l-only
+$breakpoint-xl: "only screen and (min-width: 1921px)";
 
 // Colors
 $white: #ffffff;

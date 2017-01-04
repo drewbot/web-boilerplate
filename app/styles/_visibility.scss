@@ -1,21 +1,122 @@
 // Show for xsmall only
-// Show for xsmall only
+.show-xs-only {
+  @media #{$breakpoint-xs-only} {
+    display: block;
+  }
+}
+
+// Show for xsmall up
+.show-xs-up {
+  display: block;
+}
+
 // Show for small only
+.show-s-only {
+  @media #{$breakpoint-s-only} {
+    display: block;
+  }
+}
+
 // Show for small up
+.show-s-up {
+  @media #{$breakpoint-s} {
+    display: block;
+  }
+}
+
 // Show for medium only
+.show-m-only {
+  @media #{$breakpoint-m-only} {
+    display: block;
+  }
+}
+
 // Show for medium up
+.show-m-up {
+  @media #{$breakpoint-m} {
+    display: block;
+  }
+}
+
 // Show for large only
+.show-l-only {
+  @media #{$breakpoint-l-only} {
+    display: block;
+  }
+}
+
 // Show for large up
-// Show for xlarge only
+.show-l-up {
+  @media #{$breakpoint-l} {
+    display: block;
+  }
+}
+
 // Show for xlarge up
+.show-xl-up {
+  @media #{$breakpoint-xl} {
+    display: block;
+  }
+}
+
 
 // Hide for xsmall only
-// Hide for xsmall only
+.hide-xs-only {
+  @media #{$breakpoint-xs-only} {
+    display: none;
+  }
+}
+
+// Hide for xsmall up
+.hide-xs-up {
+  display: none;
+}
+
 // Hide for small only
+.hide-s-only {
+  @media #{$breakpoint-s-only} {
+    display: none;
+  }
+}
+
 // Hide for small up
+.hide-s-up {
+  @media #{$breakpoint-s} {
+    display: none;
+  }
+}
+
 // Hide for medium only
+.hide-m-only {
+  @media #{$breakpoint-m-only} {
+    display: none;
+  }
+}
+
 // Hide for medium up
+.hide-m-up {
+  @media #{$breakpoint-m} {
+    display: none;
+  }
+}
+
 // Hide for large only
+.hide-l-only {
+  @media #{$breakpoint-l-only} {
+    display: none;
+  }
+}
+
 // Hide for large up
-// Hide for xlarge only
+.hide-l-up {
+  @media #{$breakpoint-l} {
+    display: none;
+  }
+}
+
 // Hide for xlarge up
+.hide-xl-up {
+  @media #{$breakpoint-xl} {
+    display: none;
+  }
+}
