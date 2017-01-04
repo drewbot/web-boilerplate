@@ -1,12 +1,12 @@
 // bower:scss
-@import "bower_components/foundation/scss/foundation.scss";
 // endbower
 
 @import "reset";
 @import "border-box-all";
-@import "element-defaults";
-@import "fonts";
 @import "variables";
 @import "mixins";
+@import "grid";
+@import "element-defaults";
+@import "fonts";
 @import "sections";
 @import "unique";

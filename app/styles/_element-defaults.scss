@@ -1,4 +1,3 @@
-@import "variables";
 
 html {
   font-size: 10px !important;
@@ -8,80 +7,96 @@ body {
   font-family: $graphik;
 }
 
-h1 {
-  font-family: $majesti;
-  font-size: 3.8rem !important;
-  line-height: 3.8rem;
-  color: $darkslate;
-  @media #{$medium-up} {
-    font-size: 4.2rem !important;
-    line-height: 4.2rem;
-  }
-  @media #{$large-up} {
-    font-size: 7.2rem !important;
-    line-height: 6.6rem;
-  }
-}
-
-h4 {
-  font-family: $graphik-medium;
-  font-size: 1.4rem !important;
-  color: $bronze;
-  @media #{$large-up} {
-    font-size: 1.6rem !important;
-  }
-}
-
-p {
-  font-family: $graphik;
-  font-size: 1.4rem !important;
-  color: $darkslate;
-  @media #{$medium-up} {
-    font-size: 1.6rem !important;
-  }
-  @media #{$large-up} {
-    font-size: 1.8rem !important;
-  }
-}
-
-aside {
-  font-family: $graphik;
-  font-size: 1.4rem !important;
-  color: $darkslate;
-  @media #{$medium-up} {
-    font-size: 1.6rem !important;
-  }
-  @media #{$large-up} {
-    font-size: 1.8rem !important;
-  }
-}
-
-aside, .secondary-text {
-  font-family: $graphik-medium;
-  font-size: 1rem !important;
-  color: $bronze;
-  @media #{$medium-up} {
-    font-size: 1.2rem !important;
-  }
-}
-
-button {
-  padding: 9px 44px 9px 12px !important;
-  background-color: $bronze !important;
-  font-family: $graphik-medium !important;
-  font-size: 1.2rem !important;
-  color: $white !important;
-  border-radius: 0 !important;
-  transition: background-color 0.2s ease-in;
-  @media #{$medium-up} {
-    padding: 10px 54px 10px 14px !important;
-    font-size: 1.4rem !important;
-  }
-  @media #{$large-up} {
-    padding: 14px 60px 14px 18px !important;
-    font-size: 1.6rem !important;
-  }
-  &:hover {
-    background-color: lighten($bronze, 10%) !important;
-  }
-}
+// h1 {
+//   font-family: $majesti;
+//   font-size: 3.8rem !important;
+//   line-height: 3.8rem;
+//   color: $darkslate;
+//   @media #{$medium-up} {
+//     font-size: 4.2rem !important;
+//     line-height: 4.2rem;
+//   }
+//   @media #{$large-up} {
+//     font-size: 7.2rem !important;
+//     line-height: 6.6rem;
+//   }
+// }
+//
+// h4 {
+//   font-family: $graphik-medium;
+//   font-size: 1.4rem !important;
+//   color: $bronze;
+//   @media #{$large-up} {
+//     font-size: 1.6rem !important;
+//   }
+// }
+//
+// p {
+//   font-family: $graphik;
+//   font-size: 1.4rem !important;
+//   color: $darkslate;
+//   @media #{$medium-up} {
+//     font-size: 1.6rem !important;
+//   }
+//   @media #{$large-up} {
+//     font-size: 1.8rem !important;
+//   }
+// }
+//
+// a {
+//   color: $slate;
+//   &:hover {
+//     color: lighten($slate, 20%)
+//   }
+// }
+//
+// li {
+//   font-family: $graphik;
+//   font-size: 1.4rem !important;
+//   color: $darkslate;
+//   @media #{$medium-up} {
+//     font-size: 1.6rem !important;
+//   }
+//   @media #{$large-up} {
+//     font-size: 1.8rem !important;
+//   }
+// }
+//
+// aside, .secondary-text {
+//   font-family: $graphik;
+//   font-size: 1.2rem !important;
+//   color: $bronze;
+//   @media #{$medium-up} {
+//     font-size: 1.4rem !important;
+//   }
+//   @media #{$large-up} {
+//     font-size: 1.6rem !important;
+//   }
+// }
+//
+// img {
+//   width: auto;
+//   max-width: 100%;
+//   height: auto !important;
+// }
+//
+// button {
+//   padding: 9px 44px 9px 12px !important;
+//   background-color: $bronze !important;
+//   font-family: $graphik-medium !important;
+//   font-size: 1.2rem !important;
+//   color: $white !important;
+//   border-radius: 0 !important;
+//   transition: background-color 0.2s ease-in;
+//   @media #{$medium-up} {
+//     padding: 10px 54px 10px 14px !important;
+//     font-size: 1.4rem !important;
+//   }
+//   @media #{$large-up} {
+//     padding: 14px 60px 14px 18px !important;
+//     font-size: 1.6rem !important;
+//   }
+//   &:hover {
+//     background-color: lighten($bronze, 10%) !important;
+//   }
+// }

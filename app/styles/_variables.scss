@@ -2,6 +2,16 @@
 
 // Variables
 
+// Grid
+$grid-columns: 12;
+$content-well-max-width: 120rem;
+
+// breakpoints
+$breakpoint-small: "only screen and (min-width: 641px)";
+$breakpoint-medium: "only screen and (min-width: 1025px)";
+$breakpoint-large: "only screen and (min-width: 1441px)";
+$breakpoint-xlarge: "only screen and (min-width: 1921px)";
+
 // Colors
 $white: #ffffff;
 $black: #000000;
