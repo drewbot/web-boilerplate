@@ -26,14 +26,14 @@
 
 @for $i from 1 through $grid-columns {
   .col-xs-#{$i} {
-    flex-basis: 100% / 12 * $i;
-    max-width: 100% / 12 * $i;
+    flex-basis: 100% / $grid-columns * $i;
+    max-width: 100% / $grid-columns * $i;
   }
 }
 
 @for $i from 1 through $grid-columns {
   .col-xs-offset-#{$i} {
-    margin-left: 100% / 12 * $i;
+    margin-left: 100% / $grid-columns * $i;
   }
 }
 
@@ -90,14 +90,14 @@
 
   @for $i from 1 through $grid-columns {
     .col-sm-#{$i} {
-      flex-basis: 100% / 12 * $i;
-      max-width: 100% / 12 * $i;
+      flex-basis: 100% / $grid-columns * $i;
+      max-width: 100% / $grid-columns * $i;
     }
   }
 
   @for $i from 1 through $grid-columns {
     .col-sm-offset-#{$i} {
-      margin-left: 100% / 12 * $i;
+      margin-left: 100% / $grid-columns * $i;
     }
   }
 
@@ -155,14 +155,14 @@
 
   @for $i from 1 through $grid-columns {
     .col-md-#{$i} {
-      flex-basis: 100% / 12 * $i;
-      max-width: 100% / 12 * $i;
+      flex-basis: 100% / $grid-columns * $i;
+      max-width: 100% / $grid-columns * $i;
     }
   }
 
   @for $i from 1 through $grid-columns {
     .col-md-offset-#{$i} {
-      margin-left: 100% / 12 * $i;
+      margin-left: 100% / $grid-columns * $i;
     }
   }
 
@@ -220,14 +220,14 @@
 
   @for $i from 1 through $grid-columns {
     .col-lg-#{$i} {
-      flex-basis: 100% / 12 * $i;
-      max-width: 100% / 12 * $i;
+      flex-basis: 100% / $grid-columns * $i;
+      max-width: 100% / $grid-columns * $i;
     }
   }
 
   @for $i from 1 through $grid-columns {
     .col-lg-offset-#{$i} {
-      margin-left: 100% / 12 * $i;
+      margin-left: 100% / $grid-columns * $i;
     }
   }
 
@@ -285,14 +285,14 @@
 
   @for $i from 1 through $grid-columns {
     .col-xl-#{$i} {
-      flex-basis: 100% / 12 * $i;
-      max-width: 100% / 12 * $i;
+      flex-basis: 100% / $grid-columns * $i;
+      max-width: 100% / $grid-columns * $i;
     }
   }
 
   @for $i from 1 through $grid-columns {
     .col-xl-offset-#{$i} {
-      margin-left: 100% / 12 * $i;
+      margin-left: 100% / $grid-columns * $i;
     }
   }
 
