@@ -1,1 +1,11 @@
 
+@for $i from 1 through 10 {
+  .example > div:nth-of-type(#{$i}) {
+    background-color: nth($block-colors, $i);
+  }
+}
+
+.example > div {
+  height: 40px;
+  margin: 0 0 15px 0;
+}

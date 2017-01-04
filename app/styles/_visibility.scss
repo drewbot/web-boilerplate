@@ -19,7 +19,7 @@
 
 // Show for small up
 .show-s-up {
-  @media #{$breakpoint-s} {
+  @media #{$breakpoint-s-up} {
     display: block;
   }
 }
@@ -33,7 +33,7 @@
 
 // Show for medium up
 .show-m-up {
-  @media #{$breakpoint-m} {
+  @media #{$breakpoint-m-up} {
     display: block;
   }
 }
@@ -47,14 +47,14 @@
 
 // Show for large up
 .show-l-up {
-  @media #{$breakpoint-l} {
+  @media #{$breakpoint-l-up} {
     display: block;
   }
 }
 
 // Show for xlarge up
 .show-xl-up {
-  @media #{$breakpoint-xl} {
+  @media #{$breakpoint-xl-up} {
     display: block;
   }
 }
@@ -81,7 +81,7 @@
 
 // Hide for small up
 .hide-s-up {
-  @media #{$breakpoint-s} {
+  @media #{$breakpoint-s-up} {
     display: none;
   }
 }
@@ -95,7 +95,7 @@
 
 // Hide for medium up
 .hide-m-up {
-  @media #{$breakpoint-m} {
+  @media #{$breakpoint-m-up} {
     display: none;
   }
 }
@@ -109,14 +109,14 @@
 
 // Hide for large up
 .hide-l-up {
-  @media #{$breakpoint-l} {
+  @media #{$breakpoint-l-up} {
     display: none;
   }
 }
 
 // Hide for xlarge up
 .hide-xl-up {
-  @media #{$breakpoint-xl} {
+  @media #{$breakpoint-xl-up} {
     display: none;
   }
 }
