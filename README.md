@@ -1,6 +1,6 @@
 #Web Application Boilerplate
 ## Overview
-The web app boilerplate is built using Zurb Foundation, jQuery and ES6 syntax. Styles are described in Sass. Build scripts are written with Gulp.js.
+The web app boilerplate is built using Node, Bower, Gulp, es6, jQuery and Sass Flexbox Grid.
 
 ## Installation
 ```
@@ -44,8 +44,10 @@ Use Sass variables and mixins where possible. Try to build reusable object orien
 
 #### Mobile First
 
-Use Foundation's mobile-first media queries when possible and only create min-width media queries when a custom query is needed. All styles should first be declared at small (mobile) then built outward for larger screens using min-width media queries.
+Use Sass Flexbox Grid's mobile-first media queries and grid classes. All styles should first be declared at small (mobile) then built outward for larger screens using min-width media queries.
 
-Try to isolate the responsive hiding, showing and column-width properties to the markup using Foundation classes.
+Try to isolate the responsive hiding, showing and column-width properties to the markup using visibility classes.
 
 ## Further Resources
+
+[Flexbox Grid](http://flexboxgrid.com/ "flexbox-grid")
