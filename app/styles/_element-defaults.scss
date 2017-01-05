@@ -1,6 +1,6 @@
 
 html {
-  font-size: 10px !important;
+  font-size: 10px;
 }
 
 body {
@@ -9,37 +9,37 @@ body {
 
 h1 {
   font-family: $majesti;
-  font-size: 3.8rem !important;
-  line-height: 3.8rem;
+  @include font-size-line-height(3.8rem);
   color: $darkslate;
-  @media #{$breakpoint-m-up} {
-    font-size: 4.2rem !important;
-    line-height: 4.2rem;
+  @media #{$breakpoint-md-up} {
+    @include font-size-line-height(4.2rem);
   }
-  @media #{$breakpoint-l-up} {
-    font-size: 7.2rem !important;
-    line-height: 6.6rem;
+  @media #{$breakpoint-lg-up} {
+    @include font-size-line-height(7.2rem);
   }
 }
 
 h4 {
   font-family: $graphik-medium;
-  font-size: 1.4rem !important;
+  @include font-size-line-height(1.8rem);
   color: $bronze;
-  @media #{$breakpoint-l-up} {
-    font-size: 1.6rem !important;
+  @media #{$breakpoint-lg-up} {
+    @include font-size-line-height(2rem);
   }
 }
 
 p {
+  margin: 0 0 1.8rem 0;
   font-family: $graphik;
-  font-size: 1.6rem !important;
+  @include font-size-line-height(1.8rem);
   color: $darkslate;
-  @media #{$breakpoint-m-up} {
-    font-size: 1.8rem !important;
+  @media #{$breakpoint-md-up} {
+    margin: 0 0 2rem 0;
+    @include font-size-line-height(2rem);
   }
-  @media #{$breakpoint-l-up} {
-    font-size: 2rem !important;
+  @media #{$breakpoint-lg-up} {
+    margin: 0 0 2.2rem 0;
+    @include font-size-line-height(2.2rem);
   }
 }
 
@@ -52,51 +52,51 @@ a {
 
 li {
   font-family: $graphik;
-  font-size: 1.4rem !important;
+  @include font-size-line-height(1.8rem);
   color: $darkslate;
-  @media #{$breakpoint-m-up} {
-    font-size: 1.6rem !important;
+  @media #{$breakpoint-md-up} {
+    @include font-size-line-height(2rem);
   }
-  @media #{$breakpoint-l-up} {
-    font-size: 1.8rem !important;
+  @media #{$breakpoint-lg-up} {
+    @include font-size-line-height(2.2rem);
   }
 }
 
 aside, .secondary-text {
   font-family: $graphik;
-  font-size: 1.2rem !important;
+  @include font-size-line-height(1.4rem);
   color: $bronze;
-  @media #{$breakpoint-m-up} {
-    font-size: 1.4rem !important;
+  @media #{$breakpoint-md-up} {
+    @include font-size-line-height(1.6rem);
   }
-  @media #{$breakpoint-l-up} {
-    font-size: 1.6rem !important;
+  @media #{$breakpoint-lg-up} {
+    @include font-size-line-height(1.8rem);
   }
 }
 
 img {
   width: auto;
   max-width: 100%;
-  height: auto !important;
+  height: auto;
 }
 
 button {
-  padding: 9px 44px 9px 12px !important;
-  background-color: $bronze !important;
-  font-family: $graphik-medium !important;
-  font-size: 1.2rem !important;
-  color: $white !important;
-  border-radius: 0 !important;
+  padding: 9px 44px 9px 12px;
+  background-color: $bronze;
+  font-family: $graphik-medium;
+  @include font-size-line-height(1.8rem);
+  color: $white;
+  border-radius: 0;
   transition: background-color 0.2s ease-in;
-  @media #{$breakpoint-m-up} {
-    padding: 10px 54px 10px 14px !important;
-    font-size: 1.4rem !important;
+  @media #{$breakpoint-md-up} {
+    padding: 10px 54px 10px 14px;
+    @include font-size-line-height(2rem);
   }
-  @media #{$breakpoint-l-up} {
-    padding: 14px 60px 14px 18px !important;
-    font-size: 1.6rem !important;
+  @media #{$breakpoint-lg-up} {
+    padding: 14px 60px 14px 18px;
+    @include font-size-line-height(2.2rem);
   }
   &:hover {
-    background-color: lighten($bronze, 10%) !important;
+    background-color: lighten($bronze, 10%);
   }
 }

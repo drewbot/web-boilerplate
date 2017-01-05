@@ -8,12 +8,12 @@ $content-well-max-width: 144rem;
 
 // breakpoints
 $breakpoint-xs-only: "only screen and (max-width: 641px)"; // xs-only
-$breakpoint-s-up: "only screen and (min-width: 641px)";
-$breakpoint-s-only: "only screen and (min-width: 641px) and (max-width: 1024px)"; // s-only
-$breakpoint-m-up: "only screen and (min-width: 1025px)";
-$breakpoint-m-only: "only screen and (min-width: 1025px) and (max-width: 1440px)"; // m-only
-$breakpoint-l-up: "only screen and (min-width: 1441px)";
-$breakpoint-l-only: "only screen and (min-width: 1441px) and (max-width: 1920px)"; // l-only
+$breakpoint-sm-up: "only screen and (min-width: 641px)";
+$breakpoint-sm-only: "only screen and (min-width: 641px) and (max-width: 1024px)"; // s-only
+$breakpoint-md-up: "only screen and (min-width: 1025px)";
+$breakpoint-md-only: "only screen and (min-width: 1025px) and (max-width: 1440px)"; // m-only
+$breakpoint-lg-up: "only screen and (min-width: 1441px)";
+$breakpoint-lg-only: "only screen and (min-width: 1441px) and (max-width: 1920px)"; // l-only
 $breakpoint-xl-up: "only screen and (min-width: 1921px)";
 
 // Colors
@@ -37,7 +37,8 @@ $gold-lt: #937D64;
 $slateblue-lt: lighten($slateblue, 10%);
 $charcoal-lt: lighten($charcoal, 10%);
 
-$block-colors: ($coral, $burgandy, $gold, $slateblue, $charcoal, $coral-lt, $burgandy-lt, $gold-lt, $slateblue-lt, $charcoal-lt);
+$block-colors: ($coral, $burgandy, $gold, $slateblue, $charcoal);
+$block-colors-lt: ($coral-lt, $burgandy-lt, $gold-lt, $slateblue-lt, $charcoal-lt);
 
 // fonts
 $majesti: "majesti-banner-book", serif;
@@ -46,3 +47,4 @@ $graphik-medium: "graphik-medium", helvetica, sans-serif;
 $graphik-semibold: "graphik-semibold", helvetica, sans-serif;
 
 // text
+$line-height-multiplier: 1.8;
