@@ -12,6 +12,40 @@ h4 {
   }
 }
 
+header {
+  background-color: $darkslate;
+  padding: 4.8rem 0;
+  @media #{$breakpoint-sm-up} {
+    padding: 5.4rem 0;
+  }
+  @media #{$breakpoint-md-up} {
+    padding: 6rem 0;
+  }
+  @media #{$breakpoint-lg-up} {
+    padding: 6.6rem 0;
+  }
+  p {
+    color: $white;
+  }
+}
+
+footer {
+  background-color: $darkslate;
+  padding: 4.8rem 0;
+  @media #{$breakpoint-sm-up} {
+    padding: 5.4rem 0;
+  }
+  @media #{$breakpoint-md-up} {
+    padding: 6rem 0;
+  }
+  @media #{$breakpoint-lg-up} {
+    padding: 6.6rem 0;
+  }
+  aside {
+    color: $white;
+  }
+}
+
 section {
   padding: 4.8rem 0;
   @media #{$breakpoint-sm-up} {

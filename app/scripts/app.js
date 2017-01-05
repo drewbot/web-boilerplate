@@ -4,6 +4,6 @@ $(function() {
   console.log(`Hello ${mainObj.owner}`);
   console.log(mainObj.isTouchDevice() ? 'Touch Device': 'Desktop');
 
-  $('#copyright').append(mainObj.printCopyright());
+  $('#copyright').append(mainObj.getCopyright());
 
 });

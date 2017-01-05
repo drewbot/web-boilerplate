@@ -1,10 +1,10 @@
 var mainObj = {
-  owner: 'Developer',
+  owner: 'Drew Botka',
   copyright: new Date().getFullYear(),
   isTouchDevice() {
     return !!('ontouchstart' in window) || !!('msmaxtouchpoints' in window.navigator);
   },
-  printCopyright() {
+  getCopyright() {
     return `&copy; ${this.copyright} ${this.owner}. All Rights Reserved.`
   }
 };
