@@ -1,6 +1,6 @@
 #Webeezer
 ## Overview
-A web app starter including Node, Bower, Gulp, ES6, jQuery, SCSS and Sass Flexbox Grid.
+A web app starter including Node, Bower, Gulp, ES6, jQuery, SCSS and [Sass Flexbox Grid](https://github.com/drewbot/sass-flexbox-grid "sass-flexbox-grid").
 
 ## Installation
 ```
