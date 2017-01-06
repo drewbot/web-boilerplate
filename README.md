@@ -1,6 +1,6 @@
-#Web Application Boilerplate
+#Webeezer
 ## Overview
-The web app boilerplate is built using Node, Bower, Gulp, es6, jQuery and Sass Flexbox Grid.
+A web app starter including Node, Bower, Gulp, ES6, jQuery, SCSS and Sass Flexbox Grid.
 
 ## Installation
 ```
