@@ -47,7 +47,3 @@ Use Sass variables and mixins where possible. Try to build reusable object orien
 Use Sass Flexbox Grid's mobile-first media queries and grid classes. All styles should first be declared at small (mobile) then built outward for larger screens using min-width media queries.
 
 Try to isolate the responsive hiding, showing and column-width properties to the markup using visibility classes.
-
-## Further Resources
-
-[Flexbox Grid](http://flexboxgrid.com/ "flexbox-grid")
